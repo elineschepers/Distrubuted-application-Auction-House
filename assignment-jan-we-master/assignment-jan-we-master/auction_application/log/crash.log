@@ -1,0 +1,149 @@
+2021-12-10 16:36:12 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.AuctionApplication.Supervisor'}
+     Context:    start_error
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.AuctionApplication.UserSystem'},{mfargs,{'Elixir.AuctionApplication.UserSystem',start_link,[[]]}},{restart_type,permanent},{significant,false},{shutdown,infinity},{child_type,supervisor}]
+
+2021-12-10 16:36:12 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.AuctionApplication.UserSystem/1
+    pid: <0.310.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.AuctionApplication.Supervisor',<0.303.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.304.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 442
+  neighbours:
+2021-12-10 16:36:12 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.302.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.AuctionApplication.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,142}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.301.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.303.0>,normal}]
+    links: [<0.301.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 236
+  neighbours:
+2021-12-10 16:39:36 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.AuctionApplication.Supervisor'}
+     Context:    start_error
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.AuctionApplication.UserSystem'},{mfargs,{'Elixir.AuctionApplication.UserSystem',start_link,[[]]}},{restart_type,permanent},{significant,false},{shutdown,infinity},{child_type,supervisor}]
+
+2021-12-10 16:39:36 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.AuctionApplication.UserSystem/1
+    pid: <0.290.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.AuctionApplication.Supervisor',<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.284.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 521
+  neighbours:
+2021-12-10 16:39:36 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.AuctionApplication.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,142}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 232
+  neighbours:
+2021-12-10 16:40:11 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.AuctionApplication.Supervisor'}
+     Context:    start_error
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.AuctionApplication.UserSystem'},{mfargs,{'Elixir.AuctionApplication.UserSystem',start_link,[[]]}},{restart_type,permanent},{significant,false},{shutdown,infinity},{child_type,supervisor}]
+
+2021-12-10 16:40:11 =CRASH REPORT====
+  crasher:
+    initial call: supervisor:Elixir.AuctionApplication.UserSystem/1
+    pid: <0.304.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.AuctionApplication.Supervisor',<0.297.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.298.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 442
+  neighbours:
+2021-12-10 16:40:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.296.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{supervisor,init,1,[{file,"supervisor.erl"},{line,330}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,423}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,390}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.AuctionApplication.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,142}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.295.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.295.0>,<0.297.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 235
+  neighbours:
+2021-12-10 16:43:57 =ERROR REPORT====
+** Generic server 'Elixir.AuctionApplication.AuctionManager' terminating 
+** Last message in was {'$gen_cast',{increase_price,<<"test">>,<<"eline">>,false,222}}
+** When Server state == #{'__struct__' => 'Elixir.AuctionApplication.AuctionManager',auctions => #{<<"test">> => #{ended => false,price => 222,seller => <<"eline">>}}}
+** Reason for termination ==
+** {badarith,[{'Elixir.AuctionApplication.AuctionManager',handle_cast,2,[{file,"lib/auction_systeem/auction_manager.ex"},{line,94}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,695}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,771}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2021-12-10 16:43:57 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.AuctionApplication.AuctionManager:init/1
+    pid: <0.305.0>
+    registered_name: 'Elixir.AuctionApplication.AuctionManager'
+    exception error: {badarith,[{'Elixir.AuctionApplication.AuctionManager',handle_cast,2,[{file,"lib/auction_systeem/auction_manager.ex"},{line,94}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,695}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,771}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.AuctionApplication.AuctionSystem','Elixir.AuctionApplication.Supervisor',<0.299.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.303.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 4547
+  neighbours:
+2021-12-10 16:43:57 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.AuctionApplication.AuctionSystem'}
+     Context:    child_terminated
+     Reason:     {badarith,[{'Elixir.AuctionApplication.AuctionManager',handle_cast,2,[{file,"lib/auction_systeem/auction_manager.ex"},{line,94}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,695}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,771}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.305.0>},{id,'Elixir.AuctionApplication.AuctionManager'},{mfargs,{'Elixir.AuctionApplication.AuctionManager',start_link,[[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+

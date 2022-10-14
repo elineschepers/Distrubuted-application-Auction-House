@@ -1,0 +1,137 @@
+2021-12-10 16:22:36.559 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:22:36.560 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:22:36.563 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:22:36.563 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:22:36.563 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:22:36.564 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:22:36.614 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:22:36.614 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:22:36.617 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:22:36.617 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:22:36.620 [info] <0.44.0> Application auction_application started on node nonode@nohost
+2021-12-10 16:31:56.372 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:31:56.373 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:31:56.376 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:31:56.376 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:31:56.376 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:31:56.376 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:31:56.419 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:31:56.419 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:31:56.423 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:31:56.424 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:31:56.429 [info] <0.44.0> Application auction_application started on node nonode@nohost
+2021-12-10 16:34:27.337 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:34:27.340 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:34:27.344 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:34:27.344 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:34:27.344 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:34:27.344 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:34:27.392 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:34:27.392 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:34:27.397 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:34:27.398 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:34:27.403 [info] <0.44.0> Application auction_application started on node nonode@nohost
+2021-12-10 16:36:12.322 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:36:12.323 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:36:12.325 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:36:12.325 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:36:12.325 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:36:12.325 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:36:12.369 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:36:12.369 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:36:12.373 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:36:12.374 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:36:12.384 [error] <0.304.0> Supervisor 'Elixir.AuctionApplication.Supervisor' had child 'Elixir.AuctionApplication.UserSystem' started with 'Elixir.AuctionApplication.UserSystem':start_link([]) at undefined exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in context start_error
+2021-12-10 16:36:12.384 [error] <0.310.0> CRASH REPORT Process <0.310.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631
+2021-12-10 16:36:12.384 [error] <0.302.0> CRASH REPORT Process <0.302.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',...},...]}}},...} in application_master:init/4 line 142
+2021-12-10 16:36:12.384 [info] <0.44.0> Application auction_application exited with reason: {{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',...},...]}}},...}
+2021-12-10 16:36:12.385 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-12-10 16:36:12.386 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-12-10 16:36:12.386 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-12-10 16:36:12.387 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-12-10 16:36:12.387 [info] <0.44.0> Application recon exited with reason: stopped
+2021-12-10 16:36:12.387 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-12-10 16:36:12.387 [info] <0.44.0> Application tools exited with reason: stopped
+2021-12-10 16:36:12.387 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-12-10 16:39:36.007 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:39:36.008 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:39:36.010 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:39:36.010 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:39:36.010 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:39:36.010 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:39:36.058 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:39:36.058 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:39:36.061 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:39:36.063 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:39:36.074 [error] <0.284.0> Supervisor 'Elixir.AuctionApplication.Supervisor' had child 'Elixir.AuctionApplication.UserSystem' started with 'Elixir.AuctionApplication.UserSystem':start_link([]) at undefined exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in context start_error
+2021-12-10 16:39:36.074 [error] <0.290.0> CRASH REPORT Process <0.290.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631
+2021-12-10 16:39:36.074 [error] <0.282.0> CRASH REPORT Process <0.282.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',...},...]}}},...} in application_master:init/4 line 142
+2021-12-10 16:39:36.075 [info] <0.44.0> Application auction_application exited with reason: {{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',...},...]}}},...}
+2021-12-10 16:39:36.077 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-12-10 16:39:36.079 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-12-10 16:39:36.079 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-12-10 16:39:36.079 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-12-10 16:39:36.079 [info] <0.44.0> Application recon exited with reason: stopped
+2021-12-10 16:39:36.079 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-12-10 16:39:36.079 [info] <0.44.0> Application tools exited with reason: stopped
+2021-12-10 16:39:36.080 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-12-10 16:39:36.080 [info] <0.44.0> Application xmerl exited with reason: stopped
+2021-12-10 16:40:11.234 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:40:11.235 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:40:11.238 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:40:11.238 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:40:11.238 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:40:11.238 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:40:11.281 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:40:11.281 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:40:11.285 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:40:11.287 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:40:11.300 [error] <0.298.0> Supervisor 'Elixir.AuctionApplication.Supervisor' had child 'Elixir.AuctionApplication.UserSystem' started with 'Elixir.AuctionApplication.UserSystem':start_link([]) at undefined exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in context start_error
+2021-12-10 16:40:11.300 [error] <0.304.0> CRASH REPORT Process <0.304.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631
+2021-12-10 16:40:11.300 [error] <0.296.0> CRASH REPORT Process <0.296.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',...},...]}}},...} in application_master:init/4 line 142
+2021-12-10 16:40:11.300 [info] <0.44.0> Application auction_application exited with reason: {{shutdown,{failed_to_start_child,'Elixir.AuctionApplication.UserSystem',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module AuctionApplication.UserManager was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1582}]},{'Elixir.Supervisor',...},...]}}},...}
+2021-12-10 16:40:11.301 [info] <0.44.0> Application amqp exited with reason: stopped
+2021-12-10 16:40:11.303 [info] <0.44.0> Application amqp_client exited with reason: stopped
+2021-12-10 16:40:11.303 [info] <0.44.0> Application rabbit_common exited with reason: stopped
+2021-12-10 16:40:11.304 [info] <0.44.0> Application credentials_obfuscation exited with reason: stopped
+2021-12-10 16:40:11.304 [info] <0.44.0> Application recon exited with reason: stopped
+2021-12-10 16:40:11.304 [info] <0.44.0> Application jsx exited with reason: stopped
+2021-12-10 16:40:11.304 [info] <0.44.0> Application tools exited with reason: stopped
+2021-12-10 16:40:11.304 [info] <0.44.0> Application sasl exited with reason: stopped
+2021-12-10 16:40:11.304 [info] <0.44.0> Application xmerl exited with reason: stopped
+2021-12-10 16:40:23.343 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:40:23.345 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:40:23.347 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:40:23.347 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:40:23.347 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:40:23.347 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:40:23.391 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:40:23.391 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:40:23.394 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:40:23.396 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:40:23.400 [info] <0.44.0> Application auction_application started on node nonode@nohost
+2021-12-10 16:42:55.804 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-10 16:42:55.806 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-10 16:42:55.808 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-10 16:42:55.808 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-10 16:42:55.808 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-10 16:42:55.808 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-10 16:42:55.846 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-10 16:42:55.846 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-10 16:42:55.850 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-10 16:42:55.851 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-10 16:42:55.856 [info] <0.44.0> Application auction_application started on node nonode@nohost
+2021-12-10 16:43:57.897 [error] <0.305.0>@Elixir.AuctionApplication.AuctionManager:handle_cast:94 gen_server 'Elixir.AuctionApplication.AuctionManager' terminated with reason: bad arithmetic expression in 'Elixir.AuctionApplication.AuctionManager':handle_cast/2 line 94
+2021-12-10 16:43:57.906 [error] <0.305.0>@Elixir.AuctionApplication.AuctionManager:handle_cast:94 CRASH REPORT Process 'Elixir.AuctionApplication.AuctionManager' with 0 neighbours crashed with reason: bad arithmetic expression in 'Elixir.AuctionApplication.AuctionManager':handle_cast/2 line 94
+2021-12-10 16:43:57.906 [error] <0.303.0>@Elixir.AuctionApplication.AuctionManager:handle_cast:94 Supervisor 'Elixir.AuctionApplication.AuctionSystem' had child 'Elixir.AuctionApplication.AuctionManager' started with 'Elixir.AuctionApplication.AuctionManager':start_link([]) at <0.305.0> exit with reason bad arithmetic expression in 'Elixir.AuctionApplication.AuctionManager':handle_cast/2 line 94 in context child_terminated
+2021-12-11 11:25:20.017 [info] <0.44.0> Application lager started on node nonode@nohost
+2021-12-11 11:25:20.017 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2021-12-11 11:25:20.280 [info] <0.44.0> Application sasl started on node nonode@nohost
+2021-12-11 11:25:20.280 [info] <0.44.0> Application tools started on node nonode@nohost
+2021-12-11 11:25:20.280 [info] <0.44.0> Application jsx started on node nonode@nohost
+2021-12-11 11:25:20.280 [info] <0.44.0> Application recon started on node nonode@nohost
+2021-12-11 11:25:20.427 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2021-12-11 11:25:20.427 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2021-12-11 11:25:20.762 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2021-12-11 11:25:20.763 [info] <0.44.0> Application amqp started on node nonode@nohost
+2021-12-11 11:25:21.084 [info] <0.44.0> Application auction_application started on node nonode@nohost
